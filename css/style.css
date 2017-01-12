@@ -1,0 +1,72 @@
+.myName{
+	font-family: telegrafico;
+}
+
+.tagline{
+	font-family: OldSansBlack;
+}
+
+/*.title{
+	background-color: #00ffff;
+}*/
+
+.navigation{
+	display: inline-block;
+	float: left;
+	margin: auto;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.navi{
+	background-color: #000000; 
+	color: #ffffff;
+}
+
+.signSize{
+	font-size: 4em;
+}
+
+.menuItem{
+	font-family: Ubuntu-Bold;
+	font-size: 2.5em;
+}
+
+#aboutMe, #projects, #resume, #contact{
+	text-decoration: none;
+}
+
+.mainContent{
+	border: solid;
+	border-color: #43464B;
+	width: 80%;
+	margin-left: 10%;
+	box-shadow: 10px 10px 5px 5px #B2B4B5;
+	background-color: #ffffff;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.whitecolor{
+	color: #ffffff;
+}
+
+.fa-facebook-square{
+	color: #3B5998;
+}
+
+.fa-linkedin-square{
+	color: #0077B5;
+}
+
+.fa-twitter-square{
+	color: #0084B4;
+}
+
+#foot{
+	background-color: #000000;
+}
+
+.cm{
+	font-family: Courgette,cursive;
+}
