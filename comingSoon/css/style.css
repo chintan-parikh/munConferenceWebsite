@@ -56,3 +56,13 @@ img{
 	float: none;
 	margin: 3% auto;
 }
+
+.mt{
+	font-size: 2em;
+	color: grey;
+	background-color: black;
+}
+
+.mb{
+	background-color: grey;
+}
