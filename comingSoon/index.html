@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MUN Conference Name</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="custom()">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 col-lg-12 hidden-sm hidden-xs bgimg">
+				<img src="img/bg1.jpg" alt="bg" />
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid zi">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 hidden-sm hidden-xs centered logoimg">
+				<img src="img/logo.png" class="img-fluid" alt="WYMUN">
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 hidden-sm hidden-xs tcs">
+					<p class="text-justify text-uppercase"> <span class="tbg cs">Coming Soon</span> </p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--JS starts here-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		function custom(){
+			$('.bgimg').hide().fadeIn(3000);
+			$('.zi').hide().fadeIn(5000);
+		}
+	</script>
+	<!--JS ends here-->
+</body>
+</html>

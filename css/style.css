@@ -1,72 +1,128 @@
-.myName{
+.menuOpt{
+	float: right;
+	color: white;
+}
+
+.menuOpt ul{
+	width: 100%;
+}
+
+.menuOpt ul li{
 	font-family: telegrafico;
+	font-size: 1.5em;
+	padding-left: 2%;
+	margin-top:1%;
 }
 
-.tagline{
-	font-family: OldSansBlack;
+.menuOpt ul li:hover {
+	font-family: telegrafico;
+	font-size: 1.5em;
+	padding-left: 2%;
+	margin-top:1%;
+	color: rgb(255,204,0);
 }
 
-/*.title{
-	background-color: #00ffff;
-}*/
+.logo{
+	margin-left: 2%;
+	margin-top: 0;
+}
 
-.navigation{
-	display: inline-block;
-	float: left;
-	margin: auto;
-	width: 80%;
-	margin-left: 10%;
+#aboutUs{
+	background-color: rgb(255,204,0);
+}
+
+.stats{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #87ceeb;
+}
+
+#location, #days, #hours, #com, #del, #pi{
+	font-size: 4em;
+	color: white;
+}
+
+.word{
+	font-size: 2em;
+	color: rgb(51,102,153);
+}
+
+.msgbox{
+	border-width: 1%;
+	border-color: black;
+	box-shadow: 5px 5px 5px 5px grey;
+	padding: 2% 2%;
+	background-color: white;
+}
+
+.circleimg{
+	border-radius: 50%;
+}
+
+.signatureBlock{
+	font-family: cursive;
+	font-size: 1.25em;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#aboutUs, #committees, #letters{
+	display: none;
+}
+
+img{
+	margin: 0 auto;
+}
+
+.cbox{
+	background-color: rgb(255,204,0);
+	width: 50%;
+	margin-left: 25%;
+	font-size: 2em;
+	color: rgb(51,102,153);
 }
 
 .navi{
-	background-color: #000000; 
-	color: #ffffff;
+	margin-bottom: 0;
 }
 
-.signSize{
-	font-size: 4em;
+/*#letters{
+	padding-top: 2%;
+	background-color: rgb(255,204,0);
+	padding-bottom: 2%;
+}*/
+
+#committees, #letters, #aboutUs, #organizers{
+	padding-top: 2%;
 }
 
-.menuItem{
-	font-family: Ubuntu-Bold;
-	font-size: 2.5em;
+.menuOpt ul li {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+}
+.menuOpt ul li:after {
+    content: '';
+    display: block;
+	margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
+}
+.menuOpt ul li:hover:after {
+    width: 100%;
+    background: blue;
 }
 
-#aboutMe, #projects, #resume, #contact{
-	text-decoration: none;
+.calign{
+	margin-left: 22%;
 }
 
-.mainContent{
-	border: solid;
-	border-color: #43464B;
-	width: 80%;
-	margin-left: 10%;
-	box-shadow: 10px 10px 5px 5px #B2B4B5;
-	background-color: #ffffff;
-	margin-top: 0;
-	padding-top: 0;
+#people{
+	display: inline;
 }
 
-.whitecolor{
-	color: #ffffff;
-}
-
-.fa-facebook-square{
-	color: #3B5998;
-}
-
-.fa-linkedin-square{
-	color: #0077B5;
-}
-
-.fa-twitter-square{
-	color: #0084B4;
-}
-
-#foot{
-	background-color: #000000;
-}
-
-.cm{
-	font-family: Courgette,cursive;
+.peopinfo{
+	width: 75%;
 }

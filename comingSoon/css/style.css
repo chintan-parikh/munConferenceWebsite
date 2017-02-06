@@ -1,0 +1,58 @@
+.bgimg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	opacity: 0.6;
+
+	-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -ms-filter: blur(5px);
+  -o-filter: blur(5px);
+  filter: blur(5px);
+}
+
+body{
+	overflow: hidden;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.cs{
+	color: white;
+	font-size: 3em;
+	font-family: telegraphico;
+	font-weight: bold;
+	margin-left: 5%;
+}
+
+.tbg{
+	background-color: grey;
+	padding: 1%;
+	margin-left: 25%;
+}
+
+.tbg:hover{
+	border-bottom: 5px solid black;
+	border-top: 5px solid black;
+}
+
+.centered{
+	float: none;
+	margin: 0 auto;
+}
+
+.logoimg{
+	margin-top: 10%;
+}
+
+.tcs{
+	float: none;
+	margin: 3% auto;
+}
